@@ -1,12 +1,17 @@
 import Head from 'next/head'
+import { NextSeo } from 'next-seo';
 
 const Home = () => (
   <div className="container">
+    <NextSeo
+        title="Official Website Of Achraf El Ghinoussi | Achraf.org"
+        description="Achraf El Ghinoussi, better known as Achraf, is a Moroccan Developer, Entrepreneur. Achraf.org also provide a list of tools, freebies, and courses."
+        keywords="Achraf, Achraf El Ghinoussi, developer, web, self-employed, yonayn, blog, courses, free"
+        author="Yonyayn - Achraf El Ghinoussi - http://dev.achraf.org"
+      />
     <Head>
-      <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-
     <main>
       <h1 className="title">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
